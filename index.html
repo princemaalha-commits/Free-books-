@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books PDF Library - पुस्तक PDF लाइब्रेरी</title>
+    <meta name="description" content="Free public domain books PDF library. Download classics, fiction, sci-fi books. फ्री पब्लिक डोमेन किताबें डाउनलोड करें।">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.432/pdf.min.mjs" type="module"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>📚 BooksPDF</h2>
+                <span class="hi">पुस्तक PDF</span>
+            </div>
+            <div class="nav-search">
+                <input type="text" id="searchInput" placeholder="Search books or authors... | किताब या लेखक खोजें">
+                <select id="categoryFilter">
+                    <option value="">All Categories | सभी</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                    <option value="Classics">Classics</option>
+                </select>
+            </div>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn">🌙</button>
+                <span class="lang-indicator">EN/HI</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Free Public Domain Books | फ्री पब्लिक डोमेन पुस्तकें</h1>
+            <p>Download classic literature in PDF format. Preview before download.</p>
+        </section>
+
+        <section class="books-grid" id="booksGrid">
+            <!-- Books will be populated by JS -->
+        </section>
+
+        <!-- Book Detail Modal -->
+        <div id="bookModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="book-detail">
+                    <div class="book-info">
+                        <h2 id="modalTitle"></h2>
+                        <p id="modalAuthor"></p>
+                        <p id="modalDesc"></p>
+                        <div class="book-actions">
+                            <a id="downloadBtn" class="btn primary" href="#" download>📥 Download PDF</a>
+                            <button id="previewBtn" class="btn secondary">👁️ Preview</button>
+                        </div>
+                    </div>
+                    <div id="pdfViewer" class="pdf-viewer"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BooksPDF Library. All books are public domain. | सभी पुस्तकें पब्लिक डोमेन।</p>
+    </footer>
+
+    <script src="books.json"></script>
+    <script src="script.js"></script>
+</body>
+</html>
