@@ -1,0 +1,93 @@
+// books.json
+[
+    {
+        "id": 1,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "category": "Classics",
+        "year": "1813",
+        "description": "A classic romantic novel about Elizabeth Bennet and Mr. Darcy.",
+        "pdfUrl": "https://www.gutenberg.org/files/1342/1342-0.pdf"
+    },
+    {
+        "id": 2,
+        "title": "The War of the Worlds",
+        "author": "H.G. Wells",
+        "category": "Sci-Fi",
+        "year": "1898",
+        "description": "Martian invasion of Earth in this pioneering science fiction novel.",
+        "pdfUrl": "https://www.gutenberg.org/files/36/36-0.pdf"
+    },
+    {
+        "id": 3,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "category": "Fiction",
+        "year": "1897",
+        "description": "The iconic vampire novel featuring Count Dracula.",
+        "pdfUrl": "https://www.gutenberg.org/files/345/345-0.pdf"
+    },
+    {
+        "id": 4,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "category": "Classics",
+        "year": "1818",
+        "description": "The modern Prometheus - story of Victor Frankenstein and his creation.",
+        "pdfUrl": "https://www.gutenberg.org/files/84/84-0.pdf"
+    },
+    {
+        "id": 5,
+        "title": "The Time Machine",
+        "author": "H.G. Wells",
+        "category": "Sci-Fi",
+        "year": "1895",
+        "description": "A Victorian scientist travels into the distant future.",
+        "pdfUrl": "https://www.gutenberg.org/files/35/35-0.pdf"
+    },
+    {
+        "id": 6,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "category": "Classics",
+        "year": "1847",
+        "description": "Gothic romance novel about an orphaned governess.",
+        "pdfUrl": "https://www.gutenberg.org/files/1260/1260-0.pdf"
+    },
+    {
+        "id": 7,
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "category": "Fiction",
+        "year": "1892",
+        "description": "Collection of twelve detective stories featuring Sherlock Holmes.",
+        "pdfUrl": "https://www.gutenberg.org/files/1661/1661-0.pdf"
+    },
+    {
+        "id": 8,
+        "title": "A Tale of Two Cities",
+        "author": "Charles Dickens",
+        "category": "Classics",
+        "year": "1859",
+        "description": "Historical novel set in London and Paris during the French Revolution.",
+        "pdfUrl": "https://www.gutenberg.org/files/98/98-0.pdf"
+    },
+    {
+        "id": 9,
+        "title": "The Invisible Man",
+        "author": "H.G. Wells",
+        "category": "Sci-Fi",
+        "year": "1897",
+        "description": "A scientist discovers the secret of invisibility.",
+        "pdfUrl": "https://www.gutenberg.org/files/523/523-0.pdf"
+    },
+    {
+        "id": 10,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "category": "Fiction",
+        "year": "1890",
+        "description": "A novel about a young man who makes a Faustian bargain.",
+        "pdfUrl": "https://www.gutenberg.org/files/174/174-0.pdf"
+    }
+]
